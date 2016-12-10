@@ -1,0 +1,16 @@
+{
+  "name": "send-email",
+  "version": "0.0.1",
+  "description": "AWS Lambda function to send email through Amazon SES.",
+  "author": {
+    "name": "Ryan Shaw"
+  },
+  "dependencies": {
+    "aws-sdk": ">=2.1.8",
+    "markup-js": "1.5.21",
+    "recaptcha": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.0",
+  }
+}
