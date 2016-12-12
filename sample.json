@@ -3,5 +3,8 @@
         "email": "ryan.shaw@min.vc",
         "name": "Customer Name",
         "message": "Hello World!\nGoing to the moon!"
+    },
+    "context": {
+        "sourceIp": "127.0.0.1"
     }
 }

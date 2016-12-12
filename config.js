@@ -1,11 +1,13 @@
 "use strict";
 
 var config = {
-    "templateBucket" : "rshaw-webservices",
+    "templateBucket" : "bucket",
     "templateKey" : "Templates/Template.html",
-    "targetAddress" : "ryan.shaw@min.vc",
-    "fromAddress": "Me <support@mcserverstatus.com>",
-    "defaultSubject" : "Email From {{name}}"
+    "targetAddress" : "email@me.com",
+    "fromAddress": "From <from@example.com>",
+    "defaultSubject" : "Email From {{name}}",
+    "PRIVATE_KEY": "catpcha private key",
+    "PUBLIC_KEY": "captcha public key"
 }
 
 module.exports = config

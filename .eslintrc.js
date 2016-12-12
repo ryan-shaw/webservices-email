@@ -35,7 +35,6 @@ module.exports = {
         ],
         "complexity": "error",
         "computed-property-spacing": "error",
-        "consistent-return": "error",
         "consistent-this": "error",
         "curly": "error",
         "default-case": "error",
@@ -63,7 +62,7 @@ module.exports = {
         "indent": "error",
         "init-declarations": "error",
         "jsx-quotes": "error",
-        "key-spacing": "error",
+        "key-spacing": "off",
         "keyword-spacing": "off",
         "line-comment-position": "off",
         "linebreak-style": [
@@ -212,7 +211,6 @@ module.exports = {
         "sort-imports": "error",
         "sort-keys": "off",
         "sort-vars": "error",
-        "space-before-blocks": "error",
         "space-before-function-paren": "off",
         "space-in-parens": [
             "error",
@@ -223,10 +221,6 @@ module.exports = {
         "spaced-comment": [
             "error",
             "always"
-        ],
-        "strict": [
-            "error",
-            "never"
         ],
         "symbol-description": "error",
         "template-curly-spacing": "error",
