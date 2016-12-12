@@ -1,5 +1,7 @@
 {
-    "email": "ryan.shaw@min.vc",
-    "name": "Customer Name",
-    "message": "Hello World!\nGoing to the moon!"
+    "body": {
+        "email": "ryan.shaw@min.vc",
+        "name": "Customer Name",
+        "message": "Hello World!\nGoing to the moon!"
+    }
 }
